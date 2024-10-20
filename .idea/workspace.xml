@@ -6,15 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="3649bdb2-6470-4f00-ac47-66b9f7bfb39d" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Container.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Container.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/IncorrectIndexException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/IncorrectIndexException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/example/add/AddForCaseMoreThen10Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/add/AddForCaseMoreThen10Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/add/AddTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/add/AddTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/example/delete/DeleteForCaseMoreThen10Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/delete/DeleteForCaseMoreThen10Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/delete/DeleteTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/delete/DeleteTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/find/FindTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/find/FindTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,8 +38,8 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.DeleteTest">
-    <configuration name="AddForCaseMoreThen10Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.AddForCaseMoreThen10Test.testAddByIndexInMiddle">
+    <configuration name="AddForCaseMoreThen10Test.testAdd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="container-lab-1_0" />
       <extension name="coverage">
         <pattern>
@@ -56,12 +49,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.example.add" />
       <option name="MAIN_CLASS_NAME" value="org.example.add.AddForCaseMoreThen10Test" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="METHOD_NAME" value="testAdd" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AddTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AddForCaseMoreThen10Test.testAddByIndexInBegin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="container-lab-1_0" />
       <extension name="coverage">
         <pattern>
@@ -70,13 +64,30 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.example.add" />
-      <option name="MAIN_CLASS_NAME" value="org.example.add.AddTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="org.example.add.AddForCaseMoreThen10Test" />
+      <option name="METHOD_NAME" value="testAddByIndexInBegin" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DeleteForCaseMoreThen10Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AddForCaseMoreThen10Test.testAddByIndexInMiddle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="container-lab-1_0" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.add.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.add" />
+      <option name="MAIN_CLASS_NAME" value="org.example.add.AddForCaseMoreThen10Test" />
+      <option name="METHOD_NAME" value="testAddByIndexInMiddle" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DeleteForCaseMoreThen10Test.testDeleteFromEnd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="container-lab-1_0" />
       <extension name="coverage">
         <pattern>
@@ -86,12 +97,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.example.delete" />
       <option name="MAIN_CLASS_NAME" value="org.example.delete.DeleteForCaseMoreThen10Test" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="METHOD_NAME" value="testDeleteFromEnd" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DeleteTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DeleteForCaseMoreThen10Test.testDeleteFromTheBegin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="container-lab-1_0" />
       <extension name="coverage">
         <pattern>
@@ -100,34 +112,20 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.example.delete" />
-      <option name="MAIN_CLASS_NAME" value="org.example.delete.DeleteTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FindTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="container-lab-1_0" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.find.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example.find" />
-      <option name="MAIN_CLASS_NAME" value="org.example.find.FindTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="org.example.delete.DeleteForCaseMoreThen10Test" />
+      <option name="METHOD_NAME" value="testDeleteFromTheBegin" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.DeleteTest" />
-        <item itemvalue="JUnit.DeleteForCaseMoreThen10Test" />
-        <item itemvalue="JUnit.FindTest" />
-        <item itemvalue="JUnit.AddTest" />
-        <item itemvalue="JUnit.AddForCaseMoreThen10Test" />
+        <item itemvalue="JUnit.AddForCaseMoreThen10Test.testAddByIndexInMiddle" />
+        <item itemvalue="JUnit.AddForCaseMoreThen10Test.testAddByIndexInBegin" />
+        <item itemvalue="JUnit.AddForCaseMoreThen10Test.testAdd" />
+        <item itemvalue="JUnit.DeleteForCaseMoreThen10Test.testDeleteFromEnd" />
+        <item itemvalue="JUnit.DeleteForCaseMoreThen10Test.testDeleteFromTheBegin" />
       </list>
     </recent_temporary>
   </component>
@@ -140,6 +138,19 @@
       <option name="presentableId" value="Default" />
       <updated>1728226658214</updated>
     </task>
+    <task id="LOCAL-00001" summary="7">
+      <option name="closed" value="true" />
+      <created>1728572123742</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1728572123742</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="7" />
+    <option name="LAST_COMMIT_MESSAGE" value="7" />
   </component>
 </project>
